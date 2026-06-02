@@ -1,0 +1,52 @@
+{
+  "sorted_middleware": [],
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge/chunks/node_modules_next_dist_030u.u7._.js",
+        "server/edge/chunks/[root-of-the-server]__11ru_ap._.js",
+        "server/edge/chunks/turbopack-node_modules_next_dist_esm_build_templates_edge-wrapper_102utpg.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "entrypoint": "server/edge/chunks/turbopack-node_modules_next_dist_esm_build_templates_edge-wrapper_102utpg.js",
+      "matchers": [
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/dashboard/:path*{(\\.json|\\.rsc|\\.segments/.+\\.segment\\.rsc)}?",
+          "originalSource": "/dashboard/:path*"
+        },
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/categories/:path*{(\\.json|\\.rsc|\\.segments/.+\\.segment\\.rsc)}?",
+          "originalSource": "/categories/:path*"
+        },
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/subcategories/:path*{(\\.json|\\.rsc|\\.segments/.+\\.segment\\.rsc)}?",
+          "originalSource": "/subcategories/:path*"
+        },
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/wallpapers/:path*{(\\.json|\\.rsc|\\.segments/.+\\.segment\\.rsc)}?",
+          "originalSource": "/wallpapers/:path*"
+        },
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/settings/:path*{(\\.json|\\.rsc|\\.segments/.+\\.segment\\.rsc)}?",
+          "originalSource": "/settings/:path*"
+        },
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/login{(\\.json|\\.rsc|\\.segments/.+\\.segment\\.rsc)}?",
+          "originalSource": "/login"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "kOiuGXAUZSZsc9ECFdgZQ+bLDzEECemgiJ6ISeDr1QY=",
+        "__NEXT_PREVIEW_MODE_ID": "30a38d1aed8984dab41c67b318dce1cc",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "b570bfa7e745c9e6a41a897aaf6ef09c395a11fce808f7c04b792360e1cc7c4a",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "4c5f98f117caed11a6a6278e3bdfd88dea7264357223e2b5623a98f750d3f600"
+      }
+    }
+  },
+  "instrumentation": null,
+  "functions": {}
+}
